@@ -43,10 +43,6 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.get('/about', (req, res) => {
-  res.json({ name: 'dotNOVI', version: '1.0.0' });
-});
-
 /**
  * 404 handler
  */
